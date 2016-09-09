@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30f"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.luillo.batch11.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="50"
+         android:text="Dolares"
+         android:textColor="#fff"
+         android:textSize="40sp"/>
+
+        <EditText
+            android:id="@+id/Input_pesos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="50"
+            android:textColor="#fff"
+            android:textSize="40sp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Pesos"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textSize="40sp"/>
+
+        <EditText
+            android:id="@+id/tv_dolares"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="50"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="40sp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_convertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:text="Convertir a Pesos"
+        />
+
+    <Button
+        android:id="@+id/btn_convertir_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="29sp"
+        android:layout_marginTop="50dp"
+        android:text="Convertir a Dolares"
+        />
+
+
+
+</LinearLayout>
+
